@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1c4e9;
+    /* Pastel purple */
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e8f5e9;
+    /* Pastel green */
+}
+
+h1 {
+    text-align: center;
+    color: #512da8;
+    /* Dark purple */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #673ab7;
+    /* Dark purple */
+}
+
+form input,
+form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    /* Dark green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bugList {
+    margin-top: 20px;
+}
+
+/* For each bug entry */
+.bug-entry {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f3e5f5;
+    /* Light purple */
+}
+
+.bug-entry h3 {
+    margin: 0;
+    color: #512da8;
+    /* Dark purple */
+}
+
+.bug-entry p {
+    margin-top: 5px;
+    color: #388e3c;
+    /* Dark green */
+}
+
+.bug-entry small {
+    color: #673ab7;
+    /* Dark purple */
+}
