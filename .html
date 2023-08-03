@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bug Tracker</h1>
+        <form id="bugForm">
+            <label for="description">Bug Description:</label>
+            <input type="text" id="description" required>
+            <label for="reporter">Reporter:</label>
+            <input type="text" id="reporter" required>
+            <label for="assignee">Assignee:</label>
+            <input type="text" id="assignee" required>
+            <button type="submit">Log Bug</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Bug ID</th>
+                    <th>Description</th>
+                    <th>Reporter</th>
+                    <th>Assignee</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="bugTableBody">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
